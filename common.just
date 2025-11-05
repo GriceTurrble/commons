@@ -87,7 +87,8 @@ update-common-secrets:
     gh secret set --app dependabot -f {{GH_SECRETS_FILE}}
 
 # Fix a uv.lock file that's broken by a merge conflict. NOTE this requires a `just sync` command in your environment!
-fix-conflicted-uv-lockfile:
+[group("commons")]
+fix-conflicted-uv-lock:
     git add uv.lock
     git reset uv.lock
     rm uv.lock
