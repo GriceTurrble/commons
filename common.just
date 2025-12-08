@@ -1,5 +1,5 @@
 # Common Just recipes used across my projects.
-# Usage: see https://github.com/griceturrble/common-project-files
+# Usage: see https://github.com/griceturrble/commons
 # Just docs: https://just.systems/man/en/
 
 

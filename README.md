@@ -1,4 +1,4 @@
-# common project files
+# Common things
 My common files, workflows, and recipes for working on projects
 
 ## Starter Brewfile
@@ -7,7 +7,7 @@ Copy down the common [Brewfile](Brewfile),
 then install the bundle into the repo:
 
 ```shell
-curl https://raw.githubusercontent.com/griceturrble/common-project-files/main/Brewfile > Brewfile
+curl https://raw.githubusercontent.com/griceturrble/commons/main/Brewfile > Brewfile
 brew bundle install
 ```
 
@@ -34,7 +34,7 @@ help:
 sync-commons:
     -rm common.just
     curl -H 'Cache-Control: no-cache, no-store' \
-        https://raw.githubusercontent.com/griceturrble/common-project-files/main/common.just?cachebust={{ uuid() }} > common.just
+        https://raw.githubusercontent.com/griceturrble/commons/main/common.just?cachebust={{ uuid() }} > common.just
 ### END COMMON ###
 
 # bootstrap the dev environment
