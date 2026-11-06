@@ -1,6 +1,8 @@
 # Starter Brewfile for most projects
 # Installation: `brew bundle install`
-# Usage: see https://github.com/griceturrble/commons
+# Install with:
+#   $ brew bundle install
+# See: https://github.com/griceturrble/commons
 
 tap "homebrew/bundle"
 tap "homebrew/services"
